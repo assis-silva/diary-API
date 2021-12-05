@@ -1,0 +1,12 @@
+C:\Users\assis.silva\source\repos\Diary\Diary.Domain\bin\Debug\net5.0\Diary.Domain.deps.json
+C:\Users\assis.silva\source\repos\Diary\Diary.Domain\bin\Debug\net5.0\Diary.Domain.dll
+C:\Users\assis.silva\source\repos\Diary\Diary.Domain\bin\Debug\net5.0\ref\Diary.Domain.dll
+C:\Users\assis.silva\source\repos\Diary\Diary.Domain\bin\Debug\net5.0\Diary.Domain.pdb
+C:\Users\assis.silva\source\repos\Diary\Diary.Domain\obj\Debug\net5.0\Diary.Domain.csproj.AssemblyReference.cache
+C:\Users\assis.silva\source\repos\Diary\Diary.Domain\obj\Debug\net5.0\Diary.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\assis.silva\source\repos\Diary\Diary.Domain\obj\Debug\net5.0\Diary.Domain.AssemblyInfoInputs.cache
+C:\Users\assis.silva\source\repos\Diary\Diary.Domain\obj\Debug\net5.0\Diary.Domain.AssemblyInfo.cs
+C:\Users\assis.silva\source\repos\Diary\Diary.Domain\obj\Debug\net5.0\Diary.Domain.csproj.CoreCompileInputs.cache
+C:\Users\assis.silva\source\repos\Diary\Diary.Domain\obj\Debug\net5.0\Diary.Domain.dll
+C:\Users\assis.silva\source\repos\Diary\Diary.Domain\obj\Debug\net5.0\ref\Diary.Domain.dll
+C:\Users\assis.silva\source\repos\Diary\Diary.Domain\obj\Debug\net5.0\Diary.Domain.pdb
