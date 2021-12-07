@@ -4,6 +4,8 @@ namespace Diary.Presentation
 {
     public class WeatherForecast
     {
+        //Teste mudanca use git. 
+        // arquivo sera apagado
         public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
