@@ -88,6 +88,10 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "NetCore.AutoRegisterDi": {
               "target": "Package",
               "version": "[2.1.0, )"

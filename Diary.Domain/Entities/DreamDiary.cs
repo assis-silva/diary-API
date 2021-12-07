@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Diary.Domain.Entities
 {
-    class DreamDiary
+    public class DreamDiary : BaseEntity<int> 
     {
+        public string Title { get; set; }
+        public string Body { get; set; }
     }
 }
