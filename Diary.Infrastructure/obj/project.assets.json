@@ -2474,6 +2474,7 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "5.0.0",
           "NetCore.AutoRegisterDi": "2.1.0",
           "Newtonsoft.Json": "13.0.1",
           "RestSharp": "106.13.0",

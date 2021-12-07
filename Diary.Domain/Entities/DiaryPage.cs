@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Diary.Domain.Entities
 {
-    public class Diary : BaseEntity<int>
+    public class DiaryPage : BaseEntity<int>
     {
         public string Title { get; set; }
         public string Body { get; set; }
