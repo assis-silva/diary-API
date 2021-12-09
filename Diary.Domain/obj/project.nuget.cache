@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WKDEh0hcNwU0xMhlJvl2j+m8TOb/JzFTAK8q/8ll+fugn+KnlFn9W5PvnEY8eQsD5fX5np/D1eMCQ1QseGN5CA==",
+  "dgSpecHash": "liC+b+dXTM+svB+NC2eX0DjDJcmLjBnZchr8TURwRelHCartE0tnrbOxddekovTuT23HucLV9swx2m3/GzJAHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Domain\\Diary.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Domain\\Diary.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\assis.silva\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+  ],
   "logs": []
 }

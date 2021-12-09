@@ -8,7 +8,5 @@ namespace Diary.Application.Interfaces
     public interface IEFContext
     {
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
-
-        DbSet<DiaryPage> Diario { get; set; }
     }
 }

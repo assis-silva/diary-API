@@ -17,6 +17,7 @@ namespace Diary.Infrastructure.IoC
             });
 
             services.AddTransient<IEFContext, EFContext>();
+       
             return services;
         }
     }

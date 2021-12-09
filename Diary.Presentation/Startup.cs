@@ -1,3 +1,4 @@
+using Diary.Infrastructure.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -12,7 +13,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Diary.Presentation
+namespace Diary.API
 {
     public class Startup
     {
@@ -26,11 +27,11 @@ namespace Diary.Presentation
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.InfraRegister(Configuration);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Diary.Presentation", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Diary.API", Version = "v1" });
             });
         }
 
@@ -41,7 +42,7 @@ namespace Diary.Presentation
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Diary.Presentation v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Diary.API v1"));
             }
 
             app.UseHttpsRedirection();

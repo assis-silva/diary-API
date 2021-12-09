@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Diary.Presentation.Controllers
+namespace Diary.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

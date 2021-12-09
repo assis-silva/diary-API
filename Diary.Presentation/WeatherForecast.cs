@@ -1,6 +1,6 @@
 using System;
 
-namespace Diary.Presentation
+namespace Diary.API
 {
     public class WeatherForecast
     {
