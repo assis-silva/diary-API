@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{06D73A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{67922E3C-7B29-42A0-B20A-23AE92FD41C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diary.Application", "Diary.Application\Diary.Application.csproj", "{90B6112B-87D9-484B-A353-B9F9C339A005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diary.Application", "Diary.Application\Diary.Application.csproj", "{90B6112B-87D9-484B-A353-B9F9C339A005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diary.Domain", "Diary.Domain\Diary.Domain.csproj", "{610E119F-38A8-464A-9C00-2A002B20C0A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diary.Domain", "Diary.Domain\Diary.Domain.csproj", "{610E119F-38A8-464A-9C00-2A002B20C0A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diary.Infrastructure", "Diary.Infrastructure\Diary.Infrastructure.csproj", "{1F220EBA-DC0E-480F-904C-2356FB0D3A80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diary.Infrastructure", "Diary.Infrastructure\Diary.Infrastructure.csproj", "{1F220EBA-DC0E-480F-904C-2356FB0D3A80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diary.Presentation", "Diary.Presentation\Diary.Presentation.csproj", "{E7D78AD5-E5F6-485A-B560-E26A41C70F82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diary.API", "Diary.Presentation\Diary.API.csproj", "{E7D78AD5-E5F6-485A-B560-E26A41C70F82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

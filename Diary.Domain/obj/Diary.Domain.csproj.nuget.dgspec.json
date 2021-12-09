@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Domain\\Diary.Domain.csproj": {}
+    "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Domain\\Diary.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Domain\\Diary.Domain.csproj": {
+    "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Domain\\Diary.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Domain\\Diary.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Domain\\Diary.Domain.csproj",
         "projectName": "Diary.Domain",
-        "projectPath": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Domain\\Diary.Domain.csproj",
+        "projectPath": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Domain\\Diary.Domain.csproj",
         "packagesPath": "C:\\Users\\assis.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Domain\\obj\\",
+        "outputPath": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\assis.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

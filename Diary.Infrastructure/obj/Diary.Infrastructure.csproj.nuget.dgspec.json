@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Infrastructure\\Diary.Infrastructure.csproj": {}
+    "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Infrastructure\\Diary.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Application\\Diary.Application.csproj": {
+    "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Application\\Diary.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Application\\Diary.Application.csproj",
+        "projectUniqueName": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Application\\Diary.Application.csproj",
         "projectName": "Diary.Application",
-        "projectPath": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Application\\Diary.Application.csproj",
+        "projectPath": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Application\\Diary.Application.csproj",
         "packagesPath": "C:\\Users\\assis.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Application\\obj\\",
+        "outputPath": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\assis.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Domain\\Diary.Domain.csproj": {
-                "projectPath": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Domain\\Diary.Domain.csproj"
+              "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Domain\\Diary.Domain.csproj": {
+                "projectPath": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Domain\\Diary.Domain.csproj"
               }
             }
           }
@@ -104,6 +104,10 @@
               "target": "Package",
               "version": "[106.13.0, )"
             },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
             "System.DirectoryServices": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -140,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Domain\\Diary.Domain.csproj": {
+    "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Domain\\Diary.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Domain\\Diary.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Domain\\Diary.Domain.csproj",
         "projectName": "Diary.Domain",
-        "projectPath": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Domain\\Diary.Domain.csproj",
+        "projectPath": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Domain\\Diary.Domain.csproj",
         "packagesPath": "C:\\Users\\assis.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Domain\\obj\\",
+        "outputPath": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\assis.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -175,6 +179,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -194,14 +204,14 @@
         }
       }
     },
-    "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Infrastructure\\Diary.Infrastructure.csproj": {
+    "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Infrastructure\\Diary.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Infrastructure\\Diary.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Infrastructure\\Diary.Infrastructure.csproj",
         "projectName": "Diary.Infrastructure",
-        "projectPath": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Infrastructure\\Diary.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Infrastructure\\Diary.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\assis.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\assis.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -218,8 +228,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Application\\Diary.Application.csproj": {
-                "projectPath": "C:\\Users\\assis.silva\\source\\repos\\Diary\\Diary.Application\\Diary.Application.csproj"
+              "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Application\\Diary.Application.csproj": {
+                "projectPath": "C:\\Users\\assis.silva\\Documents\\GitHub\\diary-API\\Diary.Application\\Diary.Application.csproj"
               }
             }
           }
@@ -234,6 +244,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0, )"

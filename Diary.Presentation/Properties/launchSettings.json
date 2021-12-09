@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Diary.Presentation": {
+    "Diary.API": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
