@@ -31,4 +31,8 @@
     <ProjectReference Include="..\Diary.Domain\Diary.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CQRS\Queries\" />
+  </ItemGroup>
+
 </Project>
