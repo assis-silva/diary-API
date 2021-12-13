@@ -9,7 +9,7 @@ namespace Diary.Infrastructure.Context
     public class EFContext : DbContext, IEFContext
     {
         public EFContext(DbContextOptions<EFContext> options) : base(options) { }
-        public DbSet<DiaryPage> Diario { get; set; }
+        public DbSet<DiaryPage> Pages { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -34,3 +34,4 @@ namespace Diary.Application.DTOs.Generics
         }
 
     }
+}
